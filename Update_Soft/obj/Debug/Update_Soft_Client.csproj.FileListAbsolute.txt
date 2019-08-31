@@ -1,0 +1,25 @@
+C:\Users\97007\Desktop\嵌入式项目\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\bin\Debug\Update_Soft.exe
+C:\Users\97007\Desktop\嵌入式项目\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\bin\Debug\Update_Soft.pdb
+C:\Users\97007\Desktop\嵌入式项目\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\obj\Debug\Update_Soft.Update.resources
+C:\Users\97007\Desktop\嵌入式项目\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\obj\Debug\Update_Soft.Properties.Resources.resources
+C:\Users\97007\Desktop\嵌入式项目\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\obj\Debug\Update_Soft_Client.csproj.GenerateResource.cache
+C:\Users\97007\Desktop\嵌入式项目\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\obj\Debug\Update_Soft_Client.csproj.CoreCompileInputs.cache
+C:\Users\97007\Desktop\嵌入式项目\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\obj\Debug\Update_Soft.exe
+C:\Users\97007\Desktop\嵌入式项目\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\obj\Debug\Update_Soft.pdb
+E:\0 项目文件\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\bin\Debug\Update_Soft.exe
+E:\0 项目文件\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\bin\Debug\Update_Soft.pdb
+E:\0 项目文件\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\obj\Debug\Update_Soft_Client.csprojAssemblyReference.cache
+E:\0 项目文件\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\obj\Debug\Update_Soft.Update.resources
+E:\0 项目文件\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\obj\Debug\Update_Soft.Properties.Resources.resources
+E:\0 项目文件\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\obj\Debug\Update_Soft_Client.csproj.GenerateResource.cache
+E:\0 项目文件\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\obj\Debug\Update_Soft_Client.csproj.CoreCompileInputs.cache
+E:\0 项目文件\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\obj\Debug\Update_Soft.exe
+E:\0 项目文件\18-11-23--串口程序下载器\4 SWorld串口下载器\SWorld_Downloader\Update_Soft\obj\Debug\Update_Soft.pdb
+E:\1 WorkPlace\C#\FictionScrawl\Update_Soft\bin\Debug\Update_Soft.exe
+E:\1 WorkPlace\C#\FictionScrawl\Update_Soft\bin\Debug\Update_Soft.pdb
+E:\1 WorkPlace\C#\FictionScrawl\Update_Soft\obj\Debug\Update_Soft.Update.resources
+E:\1 WorkPlace\C#\FictionScrawl\Update_Soft\obj\Debug\Update_Soft.Properties.Resources.resources
+E:\1 WorkPlace\C#\FictionScrawl\Update_Soft\obj\Debug\Update_Soft_Client.csproj.GenerateResource.cache
+E:\1 WorkPlace\C#\FictionScrawl\Update_Soft\obj\Debug\Update_Soft_Client.csproj.CoreCompileInputs.cache
+E:\1 WorkPlace\C#\FictionScrawl\Update_Soft\obj\Debug\Update_Soft.exe
+E:\1 WorkPlace\C#\FictionScrawl\Update_Soft\obj\Debug\Update_Soft.pdb

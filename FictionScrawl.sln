@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWorld阅读", "FictionScrawl\SWorld阅读.csproj", "{BA4926C2-8982-47B5-9B39-2A19ABF9A464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Update_Soft_Client", "Update_Soft\Update_Soft_Client.csproj", "{53AC9817-73E4-488B-B75D-FF858FFA7A9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA4926C2-8982-47B5-9B39-2A19ABF9A464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4926C2-8982-47B5-9B39-2A19ABF9A464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4926C2-8982-47B5-9B39-2A19ABF9A464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4926C2-8982-47B5-9B39-2A19ABF9A464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53AC9817-73E4-488B-B75D-FF858FFA7A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AC9817-73E4-488B-B75D-FF858FFA7A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53AC9817-73E4-488B-B75D-FF858FFA7A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53AC9817-73E4-488B-B75D-FF858FFA7A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28652C2D-36BA-4E6C-93B4-BA383FEDE789}
+	EndGlobalSection
+EndGlobal

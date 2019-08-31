@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA4926C2-8982-47B5-9B39-2A19ABF9A464}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FictionScrawl</RootNamespace>
+    <AssemblyName>SWorld阅读</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>swlogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Chloe, Version=3.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Chloe.3.9.0\lib\net40\Chloe.dll</HintPath>
+    </Reference>
+    <Reference Include="Chloe.MySql, Version=3.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Chloe.MySql.3.9.0\lib\net40\Chloe.MySql.dll</HintPath>
+    </Reference>
+    <Reference Include="CSkin">
+      <HintPath>F:\6 C#\C#控件\CSkin+16.1.14.2\CSkin 16.1.14.2\CSkin 4.0\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="DMSkin">
+      <HintPath>F:\6 C#\C#控件\DMSkin-B316\DMSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.11.12.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.11.12\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin">
+      <HintPath>F:\6 C#\C#控件\MaterialSkin-master\MaterialSkin\bin\Debug\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.17.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.17\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="0 Model\tb_chapter_list.cs" />
+    <Compile Include="0 Model\tb_fiction_detail_info.cs" />
+    <Compile Include="0 Model\tb_fiction_info.cs" />
+    <Compile Include="0 Model\tb_json_bookshelf.cs" />
+    <Compile Include="0 Model\tb_json_config.cs" />
+    <Compile Include="0 Model\tb_json_download.cs" />
+    <Compile Include="0 Model\tb_json_fiction_info.cs" />
+    <Compile Include="0 Model\tb_version_info.cs" />
+    <Compile Include="1 DAL\Base\Cls_MySqlConnectionFactory.cs" />
+    <Compile Include="1 DAL\Base\Cls_MySQLHelper.cs" />
+    <Compile Include="1 DAL\Cls_Chapter_List.cs" />
+    <Compile Include="1 DAL\Cls_Fiction_Info.cs" />
+    <Compile Include="2 BLL\Cls_Oprt_Bookshelf.cs" />
+    <Compile Include="2 BLL\Cls_Oprt_Config.cs" />
+    <Compile Include="2 BLL\Cls_Oprt_Download.cs" />
+    <Compile Include="2 BLL\Cls_Oprt_Image.cs" />
+    <Compile Include="2 BLL\Cls_Oprt_String.cs" />
+    <Compile Include="2 BLL\Cls_Oprt_Update.cs" />
+    <Compile Include="3 UIL\Frm_Fiction_Chapter_Content.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3 UIL\Frm_Fiction_Chapter_Content.Designer.cs">
+      <DependentUpon>Frm_Fiction_Chapter_Content.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3 UIL\Frm_Fiction_Detail_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3 UIL\Frm_Fiction_Detail_Info.Designer.cs">
+      <DependentUpon>Frm_Fiction_Detail_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3 UIL\MyControl\BookShelf.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3 UIL\MyControl\ListViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="3 UIL\MyControl\TransTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="4 ScrawlCore\0 BQG\Cls_Fiction_Download.cs" />
+    <Compile Include="4 ScrawlCore\0 BQG\Cls_Fiction_Poster.cs" />
+    <Compile Include="4 ScrawlCore\0 BQG\Cls_Fiction_Search.cs" />
+    <Compile Include="4 ScrawlCore\0 BQG\Cls_Get_Chapter_Content.cs" />
+    <Compile Include="4 ScrawlCore\0 BQG\Cls_Get_Chapter_List.cs" />
+    <Compile Include="4 ScrawlCore\0 BQG\Cls_HomePage.cs" />
+    <Compile Include="4 ScrawlCore\CLs_Interface.cs" />
+    <Compile Include="5 Demo\Frm_Demo_Get_Chapter_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5 Demo\Frm_Demo_Get_Chapter_List.Designer.cs">
+      <DependentUpon>Frm_Demo_Get_Chapter_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5 Demo\Frm_Demo_Get_Fiction_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5 Demo\Frm_Demo_Get_Fiction_Info.Designer.cs">
+      <DependentUpon>Frm_Demo_Get_Fiction_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5 Demo\Frm_Demo_Get_Fiction_Poster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5 Demo\Frm_Demo_Get_Fiction_Poster.Designer.cs">
+      <DependentUpon>Frm_Demo_Get_Fiction_Poster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5 Demo\Frm_Demo_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5 Demo\Frm_Demo_Main.Designer.cs">
+      <DependentUpon>Frm_Demo_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Main.Designer.cs">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="3 UIL\Frm_Fiction_Chapter_Content.resx">
+      <DependentUpon>Frm_Fiction_Chapter_Content.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3 UIL\Frm_Fiction_Detail_Info.resx">
+      <DependentUpon>Frm_Fiction_Detail_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3 UIL\MyControl\BookShelf.resx">
+      <DependentUpon>BookShelf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5 Demo\Frm_Demo_Get_Chapter_List.resx">
+      <DependentUpon>Frm_Demo_Get_Chapter_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5 Demo\Frm_Demo_Get_Fiction_Info.resx">
+      <DependentUpon>Frm_Demo_Get_Fiction_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5 Demo\Frm_Demo_Get_Fiction_Poster.resx">
+      <DependentUpon>Frm_Demo_Get_Fiction_Poster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5 Demo\Frm_Demo_Main.resx">
+      <DependentUpon>Frm_Demo_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Main.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="README\README.md" />
+    <EmbeddedResource Include="Resources\tb_json_config.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contentbackpaper.jpg" />
+    <None Include="Resources\backpaper.bmp" />
+    <EmbeddedResource Include="Resources\Update_Soft.exe" />
+    <Content Include="swlogo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
