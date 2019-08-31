@@ -19,5 +19,7 @@ C#爬虫框架：HtmlAgilityPack 1.11.12
 
 1. 详细使用说明见作者个人博客 （www.sworld.top） 或者CSDN博客（https://blog.csdn.net/baidu_26678247）
 
+- 博客地址：<https://blog.csdn.net/baidu_26678247/article/details/100174059>
+
 #### 参与贡献
 
