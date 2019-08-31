@@ -230,7 +230,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="README\README.md" />
     <EmbeddedResource Include="Resources\tb_json_config.json" />
   </ItemGroup>
   <ItemGroup>

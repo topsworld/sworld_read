@@ -74,10 +74,27 @@ namespace FictionScrawl
                 Nud_Cache_Chapter_Num.Value = _tjc_Config._i_Cache_Chapter;//缓存章节数
                 Chbx_Cache_All.Checked = _tjc_Config._b_Cache_All;//是否缓存整本
                 Tbx_Bookshelf_Dir.Text = _tjc_Config._s_Bookshelf_Dir;//书架缓存目录
+                //判断路径是否存在，路径不存在则恢复默认路径
+                if (!Directory.Exists(_tjc_Config._s_Bookshelf_Dir))
+                {
+                    _tjc_Config._s_Bookshelf_Dir = Environment.CurrentDirectory + "\\Bookshelf";
+                }
                 Nud_Download_Queue_Num.Value = _tjc_Config._i_Download_Queue;//下载队列大小
                 Nud_Download_Max_Thread.Value = _tjc_Config._i_Download_Max_Thread;//下载最大线程数
                 Tbx_Download_Dir.Text = _tjc_Config._s_Download_Dir;//下载文件保存目录
+                if (!Directory.Exists(_tjc_Config._s_Download_Dir))
+                {
+                    _tjc_Config._s_Download_Dir = Environment.CurrentDirectory + "\\Download";
+                }
                 Chbx_Auto_Start.Checked = _tjc_Config._b_Autu_Start;//开机自启
+                //判断是否有修改，有修改则保存
+                if (Tbx_Bookshelf_Dir.Text != _tjc_Config._s_Bookshelf_Dir 
+                    || Tbx_Download_Dir.Text != _tjc_Config._s_Download_Dir)
+                {
+                    Tbx_Bookshelf_Dir.Text = _tjc_Config._s_Bookshelf_Dir;
+                    Tbx_Download_Dir.Text = _tjc_Config._s_Download_Dir;
+                    _2_BLL.Cls_Oprt_Config.Write_Sys_Config(_tjc_Config);
+                }
             }
 
             //if (TsBtn_Start_Check_Update.Checked)//开启检查更新线程
@@ -604,9 +621,12 @@ namespace FictionScrawl
                     , "Poster"
                     , _tjfi_One.col_file_name + ".swimg");
 
-                //保存小说封皮
-                _tfdi._img_Poster.Save(_tjfi_One.col_poster_path, System.Drawing.Imaging.ImageFormat.Jpeg);
-                _tfdi._img_Poster = null;
+                //保存小说封皮，后续版本需要修改
+                if (_tfdi._img_Poster != null)
+                {
+                    _tfdi._img_Poster.Save(_tjfi_One.col_poster_path, System.Drawing.Imaging.ImageFormat.Jpeg);
+                    _tfdi._img_Poster = null;
+                }
 
                 //保存小说文件
                 _2_BLL.Cls_Oprt_Download.Write_Download_Info(_tfdi, _tjfi_One.col_fiction_path);
@@ -1234,7 +1254,6 @@ namespace FictionScrawl
         #endregion
 
         #endregion
-
 
         #region 软件更新
         /// <summary>
